@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import BuyMeACoffeeButton from "./components/BuyMeACoffeeButton";
+import BuyMeACoffeeWidget from "./components/BuyMeACoffeeWidget";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Buy Me a Coffee Demo</h1>
+      <BuyMeACoffeeButton />
+      <BuyMeACoffeeWidget />
     </div>
   );
 }
